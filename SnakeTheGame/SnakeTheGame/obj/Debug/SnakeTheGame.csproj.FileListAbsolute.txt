@@ -1,0 +1,6 @@
+D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\bin\Debug\SnakeTheGame.exe.config
+D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\bin\Debug\SnakeTheGame.exe
+D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\bin\Debug\SnakeTheGame.pdb
+D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\obj\Debug\SnakeTheGame.csprojResolveAssemblyReference.cache
+D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\obj\Debug\SnakeTheGame.exe
+D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\obj\Debug\SnakeTheGame.pdb
