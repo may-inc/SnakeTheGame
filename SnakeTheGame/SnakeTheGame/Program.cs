@@ -16,7 +16,28 @@ namespace SnakeTheGame
 
             Point p2 = new Point(4,5,'#');
             p2.Draw();
-            
+
+            List<int> myList = new List<int>();
+            myList.Add(12354);
+            myList.Add(2);
+            myList.Add(5);
+
+            int x = myList[0];
+            int y = myList[1];
+            int z = myList[2];
+
+            Console.WriteLine();
+
+
+            foreach(int i in myList)
+            {
+                Console.WriteLine(i + " - Success");
+            }
+
+            List<Point> myPointList = new List<Point>();
+            myPointList.Add(p1);
+            myPointList.Add(p2);
+
             Console.ReadKey();
         }
 
