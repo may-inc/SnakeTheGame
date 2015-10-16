@@ -16,7 +16,13 @@ namespace SnakeTheGame
 
             Point p2 = new Point(4,5,'#');
             p2.Draw();
-            
+
+            HorizontalLine horLine = new HorizontalLine (15, 25, 20, '#');
+            horLine.HorDraw();
+
+            VerticalLine verLine = new VerticalLine(6, 13, 11, '*');
+            verLine.VerDraw();
+
             Console.ReadKey();
         }
 
