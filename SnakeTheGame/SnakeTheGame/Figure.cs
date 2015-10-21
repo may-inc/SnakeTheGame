@@ -10,7 +10,7 @@ namespace SnakeTheGame
     {
         protected List<Point> pList;
 
-        public void FigureDraw()
+        public virtual void Draw()
         {
             foreach (Point p in pList)
             {

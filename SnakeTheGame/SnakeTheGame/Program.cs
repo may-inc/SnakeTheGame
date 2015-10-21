@@ -18,19 +18,50 @@ namespace SnakeTheGame
             HorizontalLine downLine = new HorizontalLine(0, 78, 24, '+');
             VerticalLine leftLine = new VerticalLine(0, 24, 0, '+');
             VerticalLine rightLine = new VerticalLine(0, 24, 78, '+');
-            upLine.FigureDraw();
-            downLine.FigureDraw();
-            leftLine.FigureDraw();
-            rightLine.FigureDraw();
-            
-            //Отрисовка точек
-            Point p = new Point(4,5,'*');
-            Snake snake = new Snake(p, 4, Direction.Right);
-            snake.FigureDraw();
+            upLine.Draw();
+            downLine.Draw();
+            leftLine.Draw();
+            rightLine.Draw();
 
-            FoodCreator foodCreator = new FoodCreator(80, 25, '$');
-            Point food = foodCreator.CreateFood();
-            food.Draw();
+            /*//Отрисовка точек
+            Point p = new Point(4, 5, '*');
+            Snake snake = new Snake(p, 4, Direction.Right);
+            snake.Draw();*/
+
+            Point p = new Point(4, 5, '*');
+            Figure fSnake = new Snake(p, 4, Direction.Right);
+            Draw(fSnake);
+            Snake snake = (Snake)fSnake;
+
+            VerticalLine v1 = new VerticalLine(0, 15, 5, '%');
+            Draw(v1);
+            HorizontalLine h1 = new HorizontalLine(0, 5, 6, '&');
+            Draw(h1);
+
+            List<Figure> figures = new List<Figure>();
+            figures.Add(fSnake);
+            figures.Add(v1);
+            figures.Add(h1);
+
+            foreach (var f in figures)
+            {
+                f.Draw();
+            }
+        }
+
+        static void Draw(Figure figure)
+        {
+            figure.Draw();
+        }
+
+
+
+
+
+        FoodCreator foodCreator = new FoodCreator(80, 25, '$');
+        Point food = new Point<FoodCreator>;
+            foodCreator.CreateFood();
+        food.Draw();
 
             while (true)
             {
@@ -52,8 +83,6 @@ namespace SnakeTheGame
                     snake.HandleKey(key.Key);
                 }
             }
-                      
+                                  
         }
-        
-    }
 }
