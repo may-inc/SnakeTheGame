@@ -4,3 +4,8 @@ D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\bin\Debug\SnakeTheGame.pdb
 D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\obj\Debug\SnakeTheGame.csprojResolveAssemblyReference.cache
 D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\obj\Debug\SnakeTheGame.exe
 D:\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\obj\Debug\SnakeTheGame.pdb
+C:\Users\User\Documents\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\obj\Debug\SnakeTheGame.exe
+C:\Users\User\Documents\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\obj\Debug\SnakeTheGame.pdb
+C:\Users\User\Documents\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\bin\Debug\SnakeTheGame.exe.config
+C:\Users\User\Documents\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\bin\Debug\SnakeTheGame.exe
+C:\Users\User\Documents\Git\SnakeTheGame\SnakeTheGame\SnakeTheGame\bin\Debug\SnakeTheGame.pdb
